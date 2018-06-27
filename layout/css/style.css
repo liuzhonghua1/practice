@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: rgb(29, 29, 29);
+    width: 100%;
+    height: 80px;
+}
+.con {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+.logo {
+    color: white;
+    line-height: 70px;
+    font-weight: normal;
+}
+ul {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+li {
+    float: left;
+    list-style-type: none;
+    margin: 0 5px;
+}
+li a{
+    color: white;
+}
+.banner {
+    clear: both;
+    width: 100%;
+    height: 320px;
+    background-color: rgb(85, 214, 85);
+    position: relative;
+}
+.photos {
+    position: absolute;
+    bottom: 10px;
+    right: 200px;
+}
+.photos .photo {
+    float: left;
+    width: 28px;
+    height: 30px;
+    margin: 0 3px;
+    text-align: center;
+    line-height: 25px;
+    border: 1px solid black;
+    background-color: rgb(226, 218, 218);
+}
+.photos .photo:nth-of-type(2) {
+    height: 45px;
+    line-height: 55px;
+    position: relative;
+    bottom: 15px;
+    background-color: white;
+}
+.leader {
+    width: 100%;
+    height: 80px;
+}
+.leader .selectcard {
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.leader .selectcard .card {
+    float: left;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    border: 1px solid gray;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: lightgray;
+}
+.leader .selectcard .card:nth-of-type(1) {
+    background-color: white;
+    border-bottom: 0;
+}
+.leader .selectcard .card:nth-of-type(2), .leader .selectcard .card:nth-of-type(3) {
+    border-left: 0;
+    border-bottom: 0;
+}
+hr {
+    margin-top: -29px;
+}
+.content {
+    width: 960px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.content .line1 {
+    display: flex;
+}
+.content .line1 .content1, .content .line1 .content2{
+    flex: 1.2;
+    height: 180px;
+    margin-right: 10px;
+    border: 1px solid gray;
+    text-align: center;
+    line-height: 160px;
+}
+.content .line1 .content3 {
+    flex: 1;
+    height: 180px;
+    border: 1px solid gray;
+    text-align: center;
+    line-height: 160px;
+}
+.content .line2 {
+    display: flex;
+    margin-top: 10px;
+}
+.content .line2 div {
+    flex: 1;
+    height: 180px;
+    border: 1px solid gray;
+    text-align: center;
+    line-height: 160px;
+}
+.content .line2 .content4, .content .line2 .content5, .content .line2 .content6 {
+    margin-right: 10px;
+}
+.content .line3 {
+    display: flex;
+    margin-top: 10px;
+}
+.content .line3 div {
+    flex: 1;
+    height: 180px;
+    border: 1px solid gray;
+    text-align: center;
+    line-height: 160px;
+}
+.content .line3 .content8, .content .line3 .content9 {
+    margin-right: 10px;
+}
+.footer {
+    width: 100%;
+    height: 120px;
+    background-color: gray;
+}
+.footer .footife {
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
